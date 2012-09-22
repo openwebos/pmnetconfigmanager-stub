@@ -1,0 +1,14 @@
+{
+"id": "com.palm.connectionmanager",
+"description": "ConnectionManager Stub Service",
+"services": [ {
+    "name": "com.palm.connectionmanager",
+    "description": "ConnectionManager Stub Service",
+    "commands": [ {
+            "name": "getStatus",
+            "assistant": "GetStatusCommandAssistant",
+			"public": true
+             }
+           ]
+        }]
+}
