@@ -25,6 +25,7 @@ GetStatusCommandAssistant.prototype.run = function(future) {
 
 	future.result = {
 		"returnValue":true,
+		"subscribed":true,
 		"isInternetConnectionAvailable":true,
 		"wifi":{
 			"state":"connected",
